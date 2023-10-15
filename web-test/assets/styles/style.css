@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('../fonts/OpenSans-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('../fonts/OpenSans-SemiBold.ttf');
+    font-weight: 600;    
+}
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+h4 {
+    color: blueviolet;
+}
+
+h5 {
+    color: hotpink;
+}
+
+body {
+    margin: 0;
+    background-color: #0A3542;
+}
+
+.text_card {
+    color: deeppink;
+}
+
+.title {
+    font-size: 45px;
+    line-height: normal;
+    color: chocolate;
+}
+
+p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+.description {
+    font-size: 16px;
+    color: cornflowerblue;
+    line-height: 20px;
+}
+.img_1 {
+    width: 200px;
+    height: 300px;
+}
+.p-wrapper {
+    display: flex;
+}
+.box {
+    margin-top: 40px;
+    border: 2px solid orange;
+    padding: 30px;
+}  
+
+.task {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.entry-field {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;    
+}
+
+.button {
+    /* width: 100px;
+    height: 30px; */
+    padding: 4px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: rgb(173, 76, 11);
+}
+
+a {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
