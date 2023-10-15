@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Gilroy-Semibold";
+    src: url("../fonts/gilroy-semibold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("../fonts/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    background-color: #FFF;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 30px;    
+}
+
+.header-menu-home {
+    color: #F25822; 
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-menu-item {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;    
+    margin-top: 84px;
+}
+
+.top-info {
+    width: 522px;
+
+}
+
+.top-title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+    margin-bottom: 17px;
+}
+
+.top-text {
+    color: #888;
+    font-family: "Gilroy-Medium";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+    margin-right: 56px;
+}
+
+.top-button {
+    display: flex;
+    align-items: center;
+    width: 302px;
+    justify-content: space-between;
+}
+
+.top-button-start {
+    color: #FFF;
+    font-family: "Gilroy-Bold";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+}
+
+.top-button-video {
+    color: #AAA;
+    font-family: "Gilroy-Bold";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo {
+    display: flex;
+    width: 1200px;
+    margin-top: 97px;
+    margin-bottom: 96px; 
+    gap: 48px;
+}
