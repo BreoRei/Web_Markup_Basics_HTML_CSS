@@ -145,7 +145,10 @@ p {
 }
 
 .item {
-    padding: 35px 31px 30px 41px;
+    padding: 35px 31px 30px 41px;    
+}
+
+.item:hover {
     background: #FFF;
     box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
 }
@@ -157,7 +160,7 @@ p {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;    
+    line-height: normal;
 }
 
 .item-text {
