@@ -26,7 +26,7 @@
     font-weight: 400;
 }
 
-body {
+body {    
     margin: 0;
     background-color: #FFF;
 }
@@ -140,12 +140,13 @@ p {
 }
 
 .cards {
-    width: 1170px;
+    width: 1203px;
     padding: 100px 0;
 }
 
 .item {
-    padding: 35px 31px 30px 41px;    
+    font-size: 0;
+    padding: 35px 31px 30px 40px;
 }
 
 .item:hover {
@@ -160,17 +161,19 @@ p {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 125%;
 }
 
-.item-text {
+.item-text {    
     width: 310px;
+    height: 42px; 
+    flex-shrink: 0;     
     color: #666;
     font-family: Gilroy-Regular;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%;
+    line-height: 22.5px;
     margin-bottom: 25px;
 }
 
@@ -180,5 +183,5 @@ p {
     font-size: 11px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%;
+    line-height: 16.5px;
 }
