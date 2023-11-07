@@ -67,15 +67,13 @@ p {
 }
 
 .intro {
-    max-width: 1600px;
     background-color: #F1E4E6;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;  
+    width: 1600px;  
 }
 
 .intro-title {
-    padding: 290px 331px 381px 63px;
-    max-width: 405px;
+    padding: 290px 331px 381px 63px;   
 }
 
 .intro-title-border {
@@ -244,9 +242,18 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;    
+    line-height: normal;
     background: #FFF;
     border: 1px solid #F26376;
     display: block;
     cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+    .intro {       
+        width: 1440px;  
+    }
+    .intro-title {
+        padding: 290px 0 381px 63px;   
+    }
 }
