@@ -27,7 +27,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 0px;
     background-color: #FFF;
     font-family: 'Lato', sans-serif;
 }
@@ -43,7 +43,7 @@ p {
     max-width: 1140px;
 }
 
-.center {
+.center, .center2{
     margin: 0 auto;
 }
 
@@ -343,4 +343,90 @@ p {
         row-gap: 16px;
         margin-bottom: 32.48px;
     }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .center {
+        margin: 0 16px;
+    }
+
+    .secrete {
+        display: none;
+    }
+
+    .header-item {     
+        padding-bottom: 18px;        
+    }
+    
+    .intro-title {
+        padding: 150px 0 152px;
+        margin: 0 auto;
+    }
+    
+    .intro-title-border {       
+        padding-left: 15px;
+        height: 61px;
+    }
+    
+    .intro-title-brand {        
+        font-size: 38px;  
+        line-height: 1;       
+    }
+    
+    .intro-title-luxerious {       
+        font-size: 20px;         
+    }
+    
+    .intro-title-fashion {      
+        font-size: 20px;         
+    }
+    
+    .offer {       
+        grid-template-columns: 1fr;            
+        gap: 32px;
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+   
+    .big {
+        grid-column: 1
+    }
+
+    .center2 {
+        margin: 0 8px;
+    }
+    
+    .products {
+        margin-bottom: 85px;
+    }
+       
+    .products-text {    
+        margin-top: 3.3px;
+        margin-bottom: 64.7px;
+    }    
+    
+    .products-cards {        
+        grid-template-columns: 1fr;          
+        column-gap: 15.61px;        
+        margin-bottom: 40.61px;
+    }
+    
+    .products-card-info {  
+        gap: 0px;      
+        padding: 25.28px 28.72px 19.95px 16.41px;       
+    }
+  
+    .products-card-info-text {
+        max-width: 313.869px; 
+        margin-top: 12.62px;
+        margin-bottom: 17.95px;
+    }
+        
+    .products-button {
+     margin: auto;
+    }    
 }
